@@ -7,9 +7,9 @@ def	all_thing_is_obj(object: any) -> int:
 			case tuple():
 				ret = f'Tuple: {object}'
 			case set():
-				ret = f'Dict: {object}'
+				ret = f'Set: {object}'
 			case dict():
-				print("Dict :", type(object))
+				ret = f'Dict: {object}'
 			case str():
 				ret = f'{object} is in the kitchen : {object}'
 			case _:
